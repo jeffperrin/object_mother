@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.authors = ["Jeff Perrin"]
   s.date = %q{2009-06-18}
   s.email = %q{jeffperrin@gmail.com}
-  s.files = ["lib/object_mother.rb"]
+  s.files = ["lib/object_mother.rb", "object_mother.rb"]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/jeffperrin/object_mother}
   s.require_paths = ["lib"]
