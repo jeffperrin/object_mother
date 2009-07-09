@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-require 'rake/gempackagetask'
+
 Gem::Specification.new do |s|
   s.name = %q{object_mother}
   s.version = "0.3"
@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.authors = ["Jeff Perrin"]
   s.date = %q{2009-06-18}
   s.email = %q{jeffperrin@gmail.com}
-  s.files = FileList["{lib}/**/*"]
+  s.files = Dir['lib/**/*.rb']
   s.has_rdoc = true
   s.homepage = %q{http://github.com/jeffperrin/object_mother}
   s.require_paths = ["lib"]
